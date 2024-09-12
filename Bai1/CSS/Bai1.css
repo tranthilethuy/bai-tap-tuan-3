@@ -1,0 +1,109 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px auto;
+}
+
+.wrapper {
+    width: 960px;
+    height: 700px;
+    box-sizing: border-box;
+    background-color: #6abcec;
+}
+nav {
+    height: 80px;
+    width: 960px;
+    border-bottom: 5px dotted white;
+}
+.menu li {
+    display: inline-table;
+    height: 50px;
+    line-height: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.menu li a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.menu li:hover {
+    background-color: wheat;
+}
+
+.menu li:hover>a {
+    color: rgb(217, 36, 20);
+    font-style: italic;
+}
+nav h2 {
+    position: absolute;
+    right: 300px;
+    top: 20px;
+    font-size: 40px;
+    color: white;
+    font-weight: bolder;
+    text-shadow: 3px 0px 10px blue;
+}
+.content {
+    width: 960px;
+   height: 550px;
+   border-bottom: 5px dotted white;
+}
+#phan1 {
+    float: left;
+    width: 50%;
+    height: 550px;
+    color: white;
+}
+#phan1 h1 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+#phan1 p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+#form1 {
+    padding-left: 50px;
+}
+input {
+    width: 300px;
+    height: 30px;
+}
+textarea{
+    width: 300px;
+    height: 100px;
+}
+button{
+    border: 3px dotted ;
+}
+
+#phan2 {
+    float: left;
+    width: 50%;
+    height: 550px;
+    color: rgb(7, 35, 249);
+}
+#phan2 img {
+    width: 400px;
+    height: 350px;
+    margin: 30px;
+    padding-top: 20px;
+}
+#phan2 h1 {
+    padding-left: 70px;
+    text-shadow: 3px 0px 3px;
+}
+#phan2 h3 {
+    padding-left: 100px;
+}
+footer p{
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
